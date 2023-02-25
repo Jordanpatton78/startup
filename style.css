@@ -25,3 +25,7 @@ body{
         justify-content: center;
         margin-top:20%;
     }
+    .footerHr{
+        border: 1px solid white;
+        margin-top: 10%;
+    }
