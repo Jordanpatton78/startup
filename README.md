@@ -9,3 +9,7 @@ Key features:
 
 ![image](https://user-images.githubusercontent.com/44303813/215239135-2e3dcdfc-787e-4b8e-85a5-c63531ad8967.png)
 
+Lessons that I've learned:
+- The importance of mobile-first development. Think of how it will look on mobile in advance.
+- How to make icons.
+- How to better format elements, and some limitations you can run into.
