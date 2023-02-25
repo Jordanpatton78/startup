@@ -71,4 +71,43 @@ body{
         height:100px;
         width:65%;
     }
-    
+    #minecraft{
+        position: absolute;
+        top: 220px;
+        left: 100px;
+        width: 30px;
+        height: 30px;
+        background-image: url(minecraft.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #skyrim{
+        position: absolute;
+        top: 350px;
+        left: 100px;
+        width: 30px;
+        height: 30px;
+        background-image: url(skyrim.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #onePunch{
+        position: absolute;
+        top: 480px;
+        right: 100px;
+        width: 30px;
+        height: 30px;
+        background-image: url(onePunch.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #captainAmerica{
+        position: absolute;
+        top: 610px;
+        left: 100px;
+        width: 30px;
+        height: 30px;
+        background-image: url(captainAmerica.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
