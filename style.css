@@ -34,6 +34,9 @@ body{
     }
     .receive{
         background-color: grey;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
         width:50%;
         margin-right: 25%;
         border-bottom-left-radius: 16px 14px;
@@ -41,6 +44,37 @@ body{
         border-top-left-radius: 16px 14px;
         border-top-right-radius: 16px 14px;
         margin-top:5%;
+    }
+
+    span{
+        z-index: 3;
+    }
+
+    .icon{
+        height: 3%;
+        width:3%;
+        margin-right: 5%;
+    }
+    .myIcon{
+        height: 3%;
+        width:3%;
+        margin-left: 5%;
+    }
+
+    .question{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 85%;
+    }
+
+    .askQuestion{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 85%;
     }
 
     .send{
@@ -71,87 +105,7 @@ body{
         height:100px;
         width:65%;
     }
-    #minecraft{
-        position: absolute;
-        top: 220px;
-        left: 100px;
-        width: 30px;
-        height: 30px;
-        background-image: url(minecraft.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    #skyrim{
-        position: absolute;
-        top: 350px;
-        left: 100px;
-        width: 30px;
-        height: 30px;
-        background-image: url(skyrim.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    #onePunch{
-        position: absolute;
-        top: 480px;
-        right: 100px;
-        width: 30px;
-        height: 30px;
-        background-image: url(onePunch.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    #captainAmerica{
-        position: absolute;
-        top: 610px;
-        left: 100px;
-        width: 30px;
-        height: 30px;
-        background-image: url(captainAmerica.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
     @media (max-width:600px){
-        #minecraft{
-            position: absolute;
-            top: 130px;
-            left: 0px;
-            width: 30px;
-            height: 30px;
-            background-image: url(minecraft.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        #skyrim{
-            position: absolute;
-            top: 220px;
-            left: 0px;
-            width: 30px;
-            height: 30px;
-            background-image: url(skyrim.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        #onePunch{
-            position: absolute;
-            top: 310px;
-            right: 0px;
-            width: 30px;
-            height: 30px;
-            background-image: url(onePunch.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        #captainAmerica{
-            position: absolute;
-            top: 400px;
-            left: 0px;
-            width: 30px;
-            height: 30px;
-            background-image: url(captainAmerica.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
         #sendText{
             width:50%;
             margin-left: 25%;

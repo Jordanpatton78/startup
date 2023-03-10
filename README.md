@@ -13,3 +13,4 @@ Lessons that I've learned:
 - The importance of mobile-first development. Think of how it will look on mobile in advance.
 - How to make icons.
 - How to better format elements, and some limitations you can run into.
+- How to use async functions
