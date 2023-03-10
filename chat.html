@@ -11,6 +11,7 @@
             integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
             crossorigin="anonymous"
         />
+        <script src="main.js"></script>
     </head>
     <body class="bg-dark">
         <header class="container-fluid navbar">
@@ -23,7 +24,7 @@
                     </li>
                 </ul>
         </header>
-        <main class="chatMain">
+        <main class="chatMain" id="main">
             <div class="question">
                 <img class="icon" id="minecraft" src="minecraft.png"></img>
                 <div class="receive">
@@ -48,11 +49,11 @@
                     <p class="bubbleP">Oh ok, that makes sense! Thank you!</p>
                 </div>
             </div>
-            <div class="container-fluid sender">
-                <input type="text" id="sendText" placeholder="Share a question or an answer!" />
-                <button type="submit" class="btn btn-primary">Send</button>
-            </div>
         </main>
+        <div class="container-fluid sender">
+            <input type="text" id="sendText" placeholder="Share a question or an answer!" />
+            <button type="submit" class="btn btn-primary" onclick="newMessage()">Send</button>
+        </div>
         <hr class="footerHr">
         <footer>
             <p class="text-white">Author: Jordan Patton</p>
