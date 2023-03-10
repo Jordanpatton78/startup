@@ -23,6 +23,7 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 20%;
     }
     .chatMain{
         margin-top: 5% !important;
