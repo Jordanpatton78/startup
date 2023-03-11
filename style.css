@@ -61,6 +61,17 @@ body{
         margin-left: 5%;
     }
 
+    @media (max-width:600px){
+        .icon{
+            height:10%;
+            width: 10%;
+        }
+        .myIcon{
+            height: 10%;
+            width: 10%;
+        }
+    }
+
     .question{
         display: flex;
         flex-direction: row;
