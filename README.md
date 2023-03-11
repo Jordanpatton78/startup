@@ -14,3 +14,5 @@ Lessons that I've learned:
 - How to make icons.
 - How to better format elements, and some limitations you can run into.
 - How to use async functions
+- Practice creating elements from scratch with js.
+- How to line up img within div for better formatting.
